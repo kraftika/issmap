@@ -1,0 +1,16 @@
+{
+  "name": "issmap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "scripts": {
+    "start": "webpack-dev-server --progress"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "^6.4.1",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
