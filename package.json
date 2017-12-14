@@ -1,16 +1,30 @@
 {
-  "name": "issmap",
+  "name": "es6-scaffold",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {},
-  "scripts": {
-    "start": "webpack-dev-server --progress"
-  },
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline",
+    "prod": "npm run clean && NODE_ENV=production webpack -p",
+    "clean": "rm -rf ./dist/*"
+  },
+  "devDependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "2.1.2",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  },
   "dependencies": {
-    "babel-loader": "^6.4.1",
-    "html-webpack-plugin": "^2.28.0",
-    "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.2"
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
