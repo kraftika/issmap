@@ -1,6 +1,6 @@
 # Display current ISS position on Google Map
 
-![ISS on the map](screenshots/demo-picture.png "Iss station around the globe")
+![ISS on the map](assets/demo-picture.png)
 
 ## Install and run
 npm install
